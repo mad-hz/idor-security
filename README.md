@@ -29,7 +29,7 @@ This to ensure whoever updates or deletes an article, is the user who did make t
 ## Testing
    - URL: `/articles/{id}`
    - Test: 
-     - Login as test@example.com (password: secret123)
+     - Login as hz@madnl.nl (password: secret123)
      - Access article 1 [/articles/1/edit](https://zolveisa.nl/articles/1/edit)
      - Try editing and submiting
      - You should get an 403 since the article does not belong to you
